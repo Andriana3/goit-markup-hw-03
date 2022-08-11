@@ -22,6 +22,8 @@ body {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -44,11 +46,15 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+.container-nav {
+  display: flex;
+  align-items: center;
+}
 .main-nav {
   display: flex;
   align-items: center;
   margin: 0;
+  margin-right: auto;
   padding: 0;
 }
 
@@ -138,7 +144,8 @@ p {
 .section-hero {
   background-color: var(--secondary-background-color);
   text-align: center;
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero {
   font-weight: 900;
@@ -177,11 +184,6 @@ p {
   background: var(--button-background-color);
 }
 
-.section {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 94px;
-}
 /* cекція особливості */
 .hide-title {
   text-align: center;
@@ -208,6 +210,9 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section-total.about {
+  padding-top: 0;
+}
 .caption {
   font-weight: 700;
   font-size: 36px;
@@ -225,7 +230,6 @@ p {
   display: block;
   max-width: 100%;
   margin-right: 30px;
-  margin-bottom: 94px;
 }
 .img:last-child {
   margin-right: 0;
@@ -362,7 +366,7 @@ p {
   padding: 0;
 }
 .card-set {
-  width: calc((100%-60px) / 3);
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -378,7 +382,6 @@ p {
 .imagine {
   display: block;
   max-width: 100%;
-  margin-right: 30px;
 }
 
 .subtitle-type {

@@ -19,15 +19,15 @@
   </head>
   <body>
     <!-- навігація сайту -->
-    <header>
-      <div class="container ">
+    <header class="header-page">
+      <div class="container container-nav">
       <nav class="main-nav">
         <a href="/index.html" class="main-logo logo"
           ><span class="accent"> Web</span>Studio</a
         >
         <ul class="list">
-          <li class="item"><a href="./index.html" class="list-nav">Студія</a></li>
-          <li class="current item" >
+          <li class="current item"><a href="" class="list-nav">Студія</a></li>
+          <li class="item">
             <a href="./portfolia.html" class="list-nav">Портфоліо</a>
           </li class="item">
           <li class="item"><a href="" class="list-nav">Контакти</a></li>
@@ -41,7 +41,8 @@
     </header>
     <main>
       <!-- кнопки -->
-      <section class="section ">
+      <section class="section-total">
+        <div class="container">
         <h1 class="hide-title">Портфоліо</h1>
         <ul class="container list-main">
           <li class="list-btn"><button type="button" class="buton-name">Все</button></li>
@@ -50,7 +51,8 @@
           <li class="list-btn"><button type="button" class="buton-name">Дизайн</button></li>
           <li class="list-btn"><button type="button" class="buton-name">Маркетинг</button></li>
         </ul>
-      </section>
+        </div>
+      
       <!-- секція Портфоліо -->
       <section class=" container"> 
         <ul class="cards">
@@ -154,6 +156,7 @@
             </div>
           </li>
         </ul>
+      </section>
       </section>
     </main>
     <!-- футер -->
