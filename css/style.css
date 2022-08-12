@@ -335,6 +335,10 @@ p {
   display: flex;
   margin-right: 8px;
 }
+.list-btn:last-child {
+  margin-right: 0px;
+}
+
 .list-main {
   display: flex;
   justify-content: center;
@@ -367,7 +371,6 @@ p {
 /* cекція портфоліо */
 
 .card-block {
-  width: 370px;
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
